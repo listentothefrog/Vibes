@@ -6,7 +6,7 @@ The [Open Source Guides](https://opensource.guide) website has a collection of r
 
 As a reminder, all contributors are expected to adhere to the [Code of Conduct](https://github.com/listentothefrog/Vibes/blob/staging/CODE_OF_CONDUCT.md).
 
-#### Ways to contribute
+### Ways to contribute
 
 If you are eager to start contributing code right away, we have a list of good first issues that contain bugs which have a relatively limited scope. As you gain more experience and demonstrate a commitment to this repostory, you may be granted issue management permissions in the repository.
 
@@ -18,7 +18,7 @@ There are other ways you can contribute without writing a single line of code. H
 
 <li>Help people write test plans. Some pull requests sent to the main repository may lack a proper test plan. These help reviewers understand how the change was tested, and can speed up the time it takes for a contribution to be accepted.</li>
 
-#### Our Development Process
+### Our Development Process
 
 We use GitHub issues and pull requests to keep track of bug reports and contributions from the community. All changes from engineers at Facebook will sync to GitHub through a bridge with Facebook's internal source control. Changes from the community are handled through GitHub pull requests. Once a change made on GitHub is approved, it will first be imported into Facebook's internal source control and tested against Facebook's codebase. Once merged at Facebook, the change will eventually sync back to GitHub as a single commit once it has passed Facebook's internal tests.
 
