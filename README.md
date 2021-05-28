@@ -1,4 +1,4 @@
-<img height="100" src="./logo.png"/>
+<img height="100" src="https://github.com/listentothefrog/Vibes/blob/staging/logo.png"/>
 
 <p align="center">
     <strong>Connecting you and your people in your life closer.</strong>
