@@ -10,3 +10,9 @@
 <li>Mobile IOS & Android(Comming in the near future) - Chat with your friends instantly with a few taps.</li>
 <li>Join others groups - You can join other groups with something "invite link" that can be shared by either you or your friends.</li>
 <li>Developers(Comming in the near future) - Create bots and add other features to your dm's and make it look clean.</li>
+
+<h3 align="center">
+  <a href="https://github.com/listentothefrog/Vibes/blob/staging/CONTRIBUTING.md">Contribute</a>
+  <span> · </span>
+  <a href="https://github.com/listentothefrog/Vibes/blob/staging/CODE_OF_CONDUCT.md">Code of Conduct</a>
+</h3>
