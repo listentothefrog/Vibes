@@ -33,12 +33,6 @@ export const Login = () => {
             console.log(error)
         }
     }
-
-    // sign out
-
-    const signOut = async () => {
-        await auth.signOut()
-    }
     return (
         <div className="input-form-container">
             <div className="forms-inputs">
