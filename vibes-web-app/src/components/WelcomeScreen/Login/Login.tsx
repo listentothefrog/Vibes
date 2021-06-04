@@ -17,7 +17,7 @@ export const Login = () => {
                 passwordRef.current!.value
             )
         } catch(error) {
-            console.log(error)
+            alert(error)
         }
     }
 
@@ -30,7 +30,7 @@ export const Login = () => {
                 passwordRef.current!.value
             )
         } catch(error) {
-            console.log(error)
+            alert(error)
         }
     }
     return (
