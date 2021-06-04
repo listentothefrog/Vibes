@@ -1,14 +1,16 @@
 import { WelcomeScreen } from "./components/WelcomeScreen/WelcomeScreen"
-import {Dashboard} from "./components/Dashboard/Dashboard"
-import { auth } from "./firebase/firebase.config"
-import {useAuthState} from "react-firebase-hooks/auth"
+import { Dashboard } from "./components/Dashboard/Dashboard"
+import { useContext } from "react"
+import { AuthContext } from "./context/AuthContext"
 
 const App = () => {
-  const [user] = useAuthState(auth); 
+  const user = useContext(AuthContext)
   return (
-    <div>
-        {user ? <WelcomeScreen /> : <Dashboard />}
-    </div>
+        !user ? (
+          <WelcomeScreen />
+        ) : (
+          <Dashboard />
+        )
   )
 }
 

@@ -1,0 +1,29 @@
+.input-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  height: 20vh;
+}
+
+.user-input {
+  width: 100%;
+  margin: 20px 0px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 0px 10px;
+}
+
+.button-sign-in {
+  padding: 5px 100px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 3px;
+}
+
+.button-sign-up {
+  padding: 5px 92px;
+  background-color: #0080ff;
+  color: #fff;
+  border-radius: 3px;
+}

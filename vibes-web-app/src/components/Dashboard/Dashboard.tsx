@@ -1,7 +1,11 @@
+import { auth } from "../../firebase/firebaseSetup"
 export const Dashboard = () => {
+    const signOut = async () => {
+        await auth.signOut()
+    }
     return (
         <div>
-            <h1>Hello World!</h1>
+            <button onClick={signOut}>Sign out</button>
         </div>
     )
 }
