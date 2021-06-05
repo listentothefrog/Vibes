@@ -1,8 +1,6 @@
 import "./Login.css"
-import { useRef, useContext } from "react";
+import { useRef} from "react";
 import { auth } from "../../../firebase/firebaseSetup";
-import { AuthContext } from "../../../context/AuthContext";
-
 export const Login = () => {
     const emailRef = useRef<HTMLInputElement>(null);
     const passwordRef = useRef<HTMLInputElement>(null);
