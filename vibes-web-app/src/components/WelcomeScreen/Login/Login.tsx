@@ -4,7 +4,6 @@ import { auth } from "../../../firebase/firebaseSetup";
 import { AuthContext } from "../../../context/AuthContext";
 
 export const Login = () => {
-    const user = useContext(AuthContext)
     const emailRef = useRef<HTMLInputElement>(null);
     const passwordRef = useRef<HTMLInputElement>(null);
 
