@@ -8,11 +8,15 @@ export const Dashboard = () => {
     const signOut = async () => {
         await auth.signOut()
     }
+
     return (
-        <div>
-            <button onClick={signOut}>Sign out</button>
-            <h1>Hello {user?.email}</h1>
+        <div className="">
+            <div className="flex flex-row items-center space-between">
+                <img className="m-5 w-200" src="https://github.com/listentothefrog/Vibes/blob/staging/logo.png?raw=true" alt="logo"/>
+                <button onClick={signOut}>Sign Out</button>
+                <img src={user?.photoURL! as string} alt="user_profile" />
+                <h2>{user?.displayName}</h2>
+            </div>
         </div>
     )
 }
-
