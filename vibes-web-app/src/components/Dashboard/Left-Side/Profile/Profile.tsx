@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AuthContext } from "../../../../context/AuthContext";
-import { auth } from "../../../../firebase/firebaseSetup";
+
 export const Profile = () => {
   const user = useContext(AuthContext);
   return (
