@@ -1,7 +1,11 @@
-export const ChatMessage = () => {
+import { ChatMessageProps } from "../chat-types";
+
+export const ChatMessage = (props: ChatMessageProps) => {
+  const { text, uid, photoURL } = props.message;
   return (
     <div>
-      <h1>Chat feed</h1>
+      <img src={photoURL} />
+      <p>{text}</p>
     </div>
   );
 };
