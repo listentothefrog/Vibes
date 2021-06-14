@@ -16,7 +16,6 @@ export const ChatMessage = (props: ChatMessageProps) => {
   const deleteMessage = () => {
     alert("Are you sure you wanna delte your message?");
     firestore.collection("messages").doc(props.message.id).delete();
-    console.log("Gonna delete the message");
   };
   return (
     <div className={`message ${messageClass}`}>
