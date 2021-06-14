@@ -55,7 +55,11 @@ export const Chat = () => {
             />
           </div>
           <div className="flex items-center ml-10">
-            <button type="submit" className="bg-blue-500 p-2 rounded-lg">
+            <button
+              type="submit"
+              disabled={!formValue}
+              className="bg-blue-500 p-2 rounded-lg"
+            >
               Swoosh 💨
             </button>
           </div>
