@@ -2,7 +2,7 @@ import { ChatMessage } from "./ChatMessage/ChatMessage";
 import "./Chat.css";
 import { firestore } from "../../../firebase/firebaseSetup";
 import { useCollectionData } from "react-firebase-hooks/firestore";
-import { Message } from "./chat-types";
+import { Message } from "../../../types";
 import React, { useContext, useState } from "react";
 import { AuthContext } from "../../../context/AuthContext";
 import firebase from "firebase";

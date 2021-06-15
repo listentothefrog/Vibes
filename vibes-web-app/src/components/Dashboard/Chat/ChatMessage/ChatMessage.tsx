@@ -1,8 +1,7 @@
-import { ChatMessageProps } from "../chat-types";
+import { ChatMessageProps } from "../../../../types";
 import { auth, firestore } from "../../../../firebase/firebaseSetup";
 import { useContext } from "react";
 import { AuthContext } from "../../../../context/AuthContext";
-import { strict } from "assert";
 
 export const ChatMessage = (props: ChatMessageProps) => {
   const user = useContext(AuthContext);
