@@ -16,7 +16,11 @@ We are using NPM as our package manager and maybe in the future will switch to Y
 
 Make sure you are in the home directory
 
-`cd vibes-web-app/ npm install npm start`
+```bash
+cd vibes-web-app/ 
+npm install 
+npm start
+```
 
 If some of the above commands are not working please create a github issue.
 
