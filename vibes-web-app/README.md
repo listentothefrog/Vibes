@@ -24,4 +24,4 @@ npm start
 
 If some of the above commands are not working please create a github issue.
 
-# Thanks for having a look at this folder, hope to see your username in the commits log ;)
+### Thanks for having a look at this folder, hope to see your username in the commits log ;)
