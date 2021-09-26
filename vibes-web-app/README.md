@@ -1,4 +1,4 @@
-# What's in this folder?
+## What's in this folder?
 
 This folder contains all of the front-end code for the web version of Vibes. We are using React-Typescript as our front-end textstack.
 
@@ -8,7 +8,7 @@ The site will be hosted to this URL 👉 https://www.coolvibesgg.web.app
 
 The website will be hosted on Firebase because we are too broke to buy a Google domain ;) when Vibes gets some traction we will buy domain.
 
-# Wanna contribute?
+## Wanna contribute?
 
 We would love your input, your contribution will make Vibes a great place for friends and families to connect with each other.
 
